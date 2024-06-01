@@ -8,8 +8,9 @@ function updateClock() {
     const d = new Date();
     let s = "";
     s += (10 > d.getHours() ? "0" : "") + d.getHours() + ":";
-    s += (10 > d.getMinutes() ? "0" : "") + d.getMinutes() + ":";
-    s += (10 > d.getSeconds() ? "0" : "") + d.getSeconds();
+    s += (10 > d.getMinutes() ? "0" : "") + d.getMinutes();
+    document.title = "Time is " + s;
+    s += ":" + (10 > d.getSeconds() ? "0" : "") + d.getSeconds();
     textElem.textContent = s;
     setTimeout(updateClock, 1000 - d.getTime() % 1000 + 20);
 }
