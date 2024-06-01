@@ -3,12 +3,14 @@
     src: url('../fonts/DINNextLTPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/DINNextLTPro-Bold.woff') format('woff'), /* Modern Browsers */
          url('../fonts/DINNextLTPro-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* Customizable font and colors */
 html {
     background: #1e1e1e;
-    font-family: DIN Next LT Pro;
+    font-family: 'DIN Next LT Pro', sans-serif;
     font-weight: bold;
     color: #ededed;
 }
