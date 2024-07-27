@@ -8,7 +8,7 @@ let s1 = document.getElementById("s1");
 let s2 = document.getElementById("s2");
 let clock = document.querySelector('.clock');
 
-const targetWidth = 0.6;  // Proportion of full screen width
+const targetWidth = 0.7;  // Proportion of full screen width
 let curFontSize = 20;
 
 function transitionText() {
